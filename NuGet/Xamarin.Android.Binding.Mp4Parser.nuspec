@@ -7,8 +7,9 @@
     <title>Xamarin.Android.Binding.Mp4Parser</title>
     <authors>Douglas Giovanella</authors>
     <projectUrl>https://github.com/DouglasGiovanella/Xamarin.Android.Mp4Parser</projectUrl>
+    <repository type="git" url="https://github.com/DouglasGiovanella/Xamarin.Android.Mp4Parser" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A Google Mp4Parser binding for Xamarin.Android</description>
+    <description>A Google Mp4Parser lib binding for Xamarin.Android</description>
     <tags>xamarin, android, mp4Parser</tags>
 	
   </metadata>
