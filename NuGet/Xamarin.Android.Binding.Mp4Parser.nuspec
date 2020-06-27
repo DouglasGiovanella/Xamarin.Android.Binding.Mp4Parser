@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Android.Binding.Mp4Parser</id>
+    <version>1.1.22</version>
+    <title>Xamarin.Android.Binding.Mp4Parser</title>
+    <authors>Douglas Giovanella</authors>
+    <projectUrl>https://github.com/DouglasGiovanella/Xamarin.Android.Mp4Parser</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Google Mp4Parser binding for Xamarin.Android</description>
+    <tags>xamarin, android, mp4Parser</tags>
+	
+  </metadata>
+  <files>
+    <file src="../Xamarin.Android.Binding.Mp4Parser/bin/Release/Xamarin.Android.Binding.Mp4Parser.dll"
+          target="lib/MonoAndroid10/Xamarin.Android.Binding.Mp4Parser.dll" />
+  </files>  
+  
+</package>
