@@ -1,0 +1,1 @@
+nuget pack Xamarin.Android.Intercom.nuspec -BasePath .
