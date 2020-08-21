@@ -1,0 +1,129 @@
+﻿<metadata>
+
+  <remove-node path="/api/package[@name='com.mp4parser.iso14496.part12']" />
+  <remove-node path="/api/package[@name='com.mp4parser.iso14496.part15']" />
+  <remove-node path="/api/package[@name='com.mp4parser.iso23001.part7']" />
+  <remove-node path="/api/package[@name='com.mp4parser.iso23009.part1']" />
+
+  <attr path="/api/package[@name='com.googlecode.mp4parser']/class[@name='Version']/field[@name='VERSION']" name="name">Current</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.h264.model']/class[@name='ScalingList']/field[@name='scalingList']" name="name">List</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.h264']/class[@name='Debug']/field[@name='debug']" name="name">DebugH264</attr>
+
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='AlbumBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.apple']/class[@name='AppleDataReferenceBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.apple']/class[@name='AppleDataRateBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.apple']/class[@name='AppleLosslessSpecificBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='AuthorBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='BitRateBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='ChunkOffset64BitBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='ClassificationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='CompositionShiftLeastGreatestAtom']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='CompositionTimeToSample']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='CopyrightBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='DataEntryUrlBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='DataEntryUrnBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.dece']/class[@name='TrickPlayBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='DescriptionBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='EditListBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='FileTypeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='MovieExtendsHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='MovieFragmentHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='MovieFragmentRandomAccessOffsetBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='SegmentTypeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='TrackExtendsBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='TrackFragmentBaseMediaDecodeTimeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='TrackFragmentHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='TrackFragmentRandomAccessBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.fragment']/class[@name='TrackRunBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='FreeSpaceBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.h264']/class[@name='AvcConfigurationBox']/method[@name='getContent' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='EC3SpecificBox']/field[@name='ContentSize' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='GenreBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.h264']/class[@name='AvcConfigurationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.h264']/class[@name='AvcConfigurationBox']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.h264']/class[@name='AvcConfigurationBox']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.apple']/class[@name='Utf8AppleDataBox']/method[@name='writeData' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.dece']/class[@name='AssetInformationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.dece']/class[@name='BaseLocationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.microsoft']/class[@name='XtraBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.cenc']/class[@name='CencDecryptingSampleList']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.cenc']/class[@name='CencEncryptingSampleList']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.googlecode.mp4parser.util']/class[@name='RangeStartMap']/method[@name='entrySet' and count(parameter)=0]" name="return">java.util.Set</attr>
+
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='HandlerBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='HintMediaHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='ItemDataBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='ItemLocationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='KeywordsBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='MediaHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='MovieHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='NullMediaHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='OmaDrmAccessUnitFormatBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='OriginalFormatBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='PerformerBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='ProgressiveDownloadInformationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='RatingBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='RecordingYearBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SampleAuxiliaryInformationOffsetsBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SampleAuxiliaryInformationSizesBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SampleDependencyTypeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.sampleentry']/class[@name='AmrSpecificBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.sampleentry']/class[@name='AmrSpecificBox']/method[@name='getContent' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SampleSizeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SampleToChunkBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SchemeTypeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SoundMediaHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SubSampleInformationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SubtitleMediaHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='StaticChunkOffsetBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='SyncSampleBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.threegpp26244']/class[@name='LocationInformationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='TimeToSampleBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='TitleBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='TrackHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='TrackHeaderBox']/method[@name='getContent' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='TrackReferenceTypeBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='UnknownBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='UserBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='VideoMediaHeaderBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.vodafone']/class[@name='AlbumArtistBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.vodafone']/class[@name='ContentDistributorIdBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.vodafone']/class[@name='CoverUriBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.vodafone']/class[@name='LyricsUriBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='XmlBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.ultraviolet']/class[@name='AssetInformationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.ultraviolet']/class[@name='BaseLocationBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.threegpp26245']/class[@name='FontTableBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.piff']/class[@name='TfxdBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.piff']/class[@name='TfrfBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.mp4']/class[@name='AbstractDescriptorBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='MLPSpecificBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='EC3SpecificBox']/method[@name='getContent' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='EC3SpecificBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='DTSSpecificBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.basemediaformat']/class[@name='AvcNalUnitStorageBox']/method[@name='getContent' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='AC3SpecificBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='AbstractTrackEncryptionBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='AbstractSampleEncryptionBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"  name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes']/class[@name='EC3SpecificBox']/method[@name='getContentSize' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.h264']/class[@name='AvcConfigurationBox']/method[@name='getContentSize' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.boxes.basemediaformat']/class[@name='AvcNalUnitStorageBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring']/class[@name='Mp4TrackImpl']/method[@name='getMediaHeaderBox' and count(parameter)=0]" name="managedReturn">Com.Coremedia.Iso.Boxes.IBox</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring.tracks']/class[@name='TextTrackImpl']/method[@name='getMediaHeaderBox' and count(parameter)=0]" name="managedReturn">Com.Coremedia.Iso.Boxes.IBox</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring.tracks']/class[@name='EC3TrackImpl']/method[@name='getMediaHeaderBox' and count(parameter)=0]" name="managedReturn">Com.Coremedia.Iso.Boxes.IBox</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring.tracks']/class[@name='H264TrackImpl']/method[@name='getMediaHeaderBox' and count(parameter)=0]" name="managedReturn">Com.Coremedia.Iso.Boxes.IBox</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring.samples']/class[@name='DefaultMp4SampleList']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring.samples']/class[@name='FragmentedMp4SampleList']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser.authoring.tracks']/class[@name='ReplaceSampleTrack.ReplaceASingleEntryList']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.mdat']/class[@name='SampleList']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.coremedia.iso.boxes.mdat']/class[@name='DummyMap']/method[@name='entrySet' and count(parameter)=0]" name="return">System.Collections.ICollection</attr>
+  <attr path="/api/package[@name='com.googlecode.mp4parser']/class[@name='BasicContainer']/method[@name='next' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.googlecode.mp4parser']/class[@name='RequiresParseDetailAspect']/field[@name='ajc$perSingletonInstance']" name="name">ajcperSingletonInstance</attr>
+</metadata>

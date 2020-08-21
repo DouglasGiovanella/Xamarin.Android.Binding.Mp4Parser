@@ -1,0 +1,1 @@
+nuget pack Xamarin.Android.Binding.Mp4Parser.nuspec -BasePath .
