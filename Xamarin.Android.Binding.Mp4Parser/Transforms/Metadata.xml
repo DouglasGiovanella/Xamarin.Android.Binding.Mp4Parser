@@ -1,17 +1,14 @@
 ﻿<metadata>
 
-  <!--This may fix reference to unexisting iso stuff from Android IsoParser RC-->
   <remove-node path="/api/package[@name='com.mp4parser.iso14496.part12']" />
   <remove-node path="/api/package[@name='com.mp4parser.iso14496.part15']" />
   <remove-node path="/api/package[@name='com.mp4parser.iso23001.part7']" />
   <remove-node path="/api/package[@name='com.mp4parser.iso23009.part1']" />
 
-  <!--Duplicate names-->
   <attr path="/api/package[@name='com.googlecode.mp4parser']/class[@name='Version']/field[@name='VERSION']" name="name">Current</attr>
   <attr path="/api/package[@name='com.googlecode.mp4parser.h264.model']/class[@name='ScalingList']/field[@name='scalingList']" name="name">List</attr>
   <attr path="/api/package[@name='com.googlecode.mp4parser.h264']/class[@name='Debug']/field[@name='debug']" name="name">DebugH264</attr>
 
-  <!--Should be protected but was public-->
   <attr path="/api/package[@name='com.coremedia.iso.boxes']/class[@name='AlbumBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='com.coremedia.iso.boxes.apple']/class[@name='AppleDataReferenceBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='com.coremedia.iso.boxes.apple']/class[@name='AppleDataRateBox']/method[@name='_parseDetails' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" name="visibility">protected</attr>
